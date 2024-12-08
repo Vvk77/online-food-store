@@ -1,0 +1,132 @@
+
+
+
+/* Menu.css */
+.menu-nav {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+.menu-nav a:hover {
+    text-decoration: underline;
+}
+
+
+.item-card{
+    background: linear-gradient(135deg, #ffcc33, #ff6f61);
+    /* border: 1px solid #ddd; */
+    border-radius: 8px;
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 10px;
+   
+
+}
+
+.item-card img{
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.item-card p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.item-card p:first-of-type {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.pizza-quote {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 24px;
+    font-style: italic;
+    color: #ff6347; /* Tomato color to represent pizza! */
+}
+
+.Filter{
+    background: linear-gradient(135deg, #ffcc33, #ff6f61);
+    padding: 5px;
+    display: flex;
+    justify-content: left;
+}
+
+.search-bar{
+    background: linear-gradient(135deg, #ffcc33, #ff6f61);
+    padding: 5px;
+    display: flex;
+    justify-content: left;
+  
+
+}
+
+.search-bar input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+
+/* Container for the checkboxes */
+.checkbox {
+    display: flex;
+    align-items: center; /* Align checkbox and label vertically */
+    margin: 10px 0; /* Add spacing between checkboxes */
+}
+
+/* Style the checkbox */
+.checkbox input[type="checkbox"] {
+    accent-color: #007BFF; /* Change color of the checkbox */
+    width: 20px; /* Adjust width of the checkbox */
+    height: 20px; /* Adjust height of the checkbox */
+    margin-right: 10px; /* Space between checkbox and label */
+}
+
+/* Style the label */
+.checkbox label {
+    font-size: 16px; /* Font size for the label */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    color: #333; /* Text color */
+}
+
+/* Style for the radio button container */
+/* Ensure that radio buttons and labels are aligned properly */
+
+
+.radioBtn{
+    background: linear-gradient(135deg, #ffcc33, #ff6f61);
+    text-align: right;
+    
+    
+}
+
+.cartbtn{
+    background-color: #ffcc33;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+
+}
+
+
